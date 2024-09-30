@@ -1,0 +1,180 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.main div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    /* border: 1px solid rgb(82, 81, 81); */
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.main img {
+    height: 50px;
+    width: 50px;
+}
+
+.button {
+    width: 100%;
+    height: 30px;
+    margin-top: auto;
+    font-size: auto;
+    color: white;
+    background-color: rgb(41, 135, 212);
+    border-radius: 10px;
+    border: none;
+}
+
+@media only screen and (max-width: 554px) {
+    .main {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 150px 150px;
+
+    }
+
+    .conn {
+        width: 140px !important;
+        margin: 20px 0px;
+    }
+}
+
+.button1 {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    font-size: auto;
+    background-color: rgb(28, 184, 106);
+    border-radius: 10px;
+    border: none;
+}
+
+.cart {
+    background: linear-gradient(to right, #ec92f4, #4d646a);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+.cart h1 {
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.cartBtn {
+    border-radius: 5px;
+    background: linear-gradient(to right, #e8a47f, #319066);
+    color: white;
+    border: none;
+    margin: 20px;
+    padding: 5px 30px;
+}
+
+.loginbox {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(93, 232, 91, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.login-content {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.login-input {
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input h3 {
+    text-align: center;
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.inputbox {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sbtn {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sbtn button {
+    background-color: rgb(59, 168, 240);
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.sbtn p {
+    margin-top: 20px;
+}
+
+.inputbox input {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+
+}
+
+.inputbox2 {
+    text-align: center;
+
+}
+
+.inputbox2 input {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.signup {
+    background-color: rgb(16, 116, 173);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+
+.addedCart {
+    display: grid;
+    grid-template-columns: 250px 70px 70px 30px;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 554px) {
+.addedCart{
+    grid-template-columns: 200px 60px 60px 30px;
+}
+}
+
+
+.errMsg {
+    color: red;
+    font-size: 13px;
+    margin-bottom: -19px;
+}
